@@ -29,9 +29,32 @@
 }
 
 .navigation-bar:hover {
-  color: rgba(170, 29, 29, 0.815);
+    color: rgba(0, 128, 0, 0.815);
 }
 
 h1 {
   font-size: 150px;
+}
+
+@media (max-width: 1400px) {
+    #center {
+	text-align: center;
+	margin: auto;
+	width: 50%;
+	border: 0px solid green;
+	padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    }
+
+    h1 {
+	font-size: 100px;
+    }
+
+    .flex-container > div {
+	/* background-color: #f1f1f1; */
+	margin: 5px;
+    }
 }
