@@ -30,3 +30,12 @@ p {
     width: 50%;
     text-align: center;
 }
+
+/* shouldn't affect nav bar */
+/* a:link {
+  color: rgb(41, 107, 145);
+}
+
+a:visited {
+  color: rgb(95, 39, 109);
+} */
