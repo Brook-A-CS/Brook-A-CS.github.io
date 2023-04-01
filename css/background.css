@@ -25,10 +25,15 @@ p {
 
 .center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 50%;
     text-align: center;
+}
+
+.sig-Ach {
+  font-size: 15px;
+  color: white;
+  /* text-decoration: underline; */
 }
 
 /* shouldn't affect nav bar */
