@@ -43,3 +43,7 @@ p {
 a:visited {
   color: rgb(95, 39, 109);
 } */
+
+.SAimg {
+  max-width: 1000px
+}
